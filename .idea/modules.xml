@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\pdbsflhr22\Desktop\listview\app\app.iml" filepath="C:\Users\pdbsflhr22\Desktop\listview\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/listview.iml" filepath="$PROJECT_DIR$/listview.iml" />
+      <module fileurl="file://C:\Users\pdbsflhr22\Desktop\listview\listview.iml" filepath="C:\Users\pdbsflhr22\Desktop\listview\listview.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+
+<android.support.constraint.ConstraintLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/img_flag"
+        android:src="@mipmap/img1"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_flag"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/img_flag"
+        android:layout_toRightOf="@+id/img_flag"
+        android:layout_weight="1"
+        android:text="Date"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/src"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/img_flag"
+        android:layout_toRightOf="@+id/img_flag"
+        android:layout_weight="1"
+        android:autoText="false"
+        android:text="Source To Destination"
+        android:textColorLink="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_flag"
+        android:layout_centerHorizontal="true"
+        android:text="Time"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/fair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/date"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignEnd="@+id/src"
+        android:layout_alignRight="@+id/src"
+        android:text="Fair Estimate"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="41dp" />
+
 
 </android.support.constraint.ConstraintLayout>
